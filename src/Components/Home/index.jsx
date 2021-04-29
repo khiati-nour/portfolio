@@ -26,7 +26,7 @@ function Home() {
              <div className="person"> 
              <img
              src={`${process.env.PUBLIC_URL}/jenga.jpg`}
-             alt="personel picture"
+             alt="personel"
              
              
              

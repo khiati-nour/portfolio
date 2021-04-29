@@ -6,13 +6,16 @@ export const Footer = () => {
         <a
           href="https://github.com/khiati-nour"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src={`${process.env.PUBLIC_URL}/github.png`}
             alt="GitHub-icon"
           />
         </a>
-        <a href="https://www.facebook.com/silver.moon.31924" target="_blank">
+        <a href="https://www.facebook.com/silver.moon.31924" 
+         target="_blank"
+         rel="noopener noreferrer">
           <img
             src={`${process.env.PUBLIC_URL}/facebook.png`}
             alt="FaceBook-icon"
@@ -21,6 +24,7 @@ export const Footer = () => {
         <a
           href="https://www.linkedin.com/in/khiati-nourelhouda-ba5920b7/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             src={`${process.env.PUBLIC_URL}/linkedin.png`}
